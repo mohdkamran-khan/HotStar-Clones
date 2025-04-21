@@ -9,7 +9,6 @@ function Production() {
         {
             id:1,
             img:disney,
-           
         },
         {   
             id:2,

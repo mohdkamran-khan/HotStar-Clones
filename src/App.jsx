@@ -18,8 +18,6 @@ import baseball from './Images/bestinsports/baseball.jpg';
 import chess from './Images/bestinsports/chess.jpg';
 import javelin from './Images/bestinsports/javelin.jpg';
 import polevault from './Images/bestinsports/polevault.jpg'; 
-import { BsChevronCompactLeft } from "react-icons/bs";
-import { BsChevronCompactRight } from "react-icons/bs";
 import armor from './Images/action/armor.jpg';
 import bloddy from './Images/action/bloddy.jpg';
 import fallguy from './Images/action/fallguy.jpg';
@@ -69,10 +67,8 @@ function App() {
         <Row className= 'latest-release font-bold bg-black '>
           <h2>Latest Releases</h2>
         </Row>
-        <Row style={{ overflowX: "hidden" }}>
+        <Row style={{ overflowX: "scroll" }}>
           <div>
-           <BsChevronCompactLeft classname="text-white text-[50px] absolute mt-[150px]" />
-           <BsChevronCompactRight classname="text-white text-[50px] absolute mt-[150px]" />
             <div className='col flex-container bg-black flex '>
               <img alt="singham" src={singham} />
               <img alt="Veda" src={vedaa} />
@@ -186,7 +182,6 @@ function App() {
         <img alt="Hello" src={appstore}/></div>
 
       </div>
-
     </div>
   );
 }
