@@ -32,7 +32,7 @@ function Production() {
         }*/
     ]
   return (
-    <div className='flex bg-black mt-10 p-20 space-x-10 items-center'>
+    <div className='flex bg-black mt-0 p-20 space-x-10 items-center'>
       {productionList.map((item) => (
         <div className=' hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer'>
             <img alt= "hello" src={item.img} className='w-full' />

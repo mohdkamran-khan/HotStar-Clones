@@ -164,7 +164,7 @@ function App() {
 
     <Production/>
 
-      <div className='bg-black text-white p-10'>
+      <div className='bg-black text-white p-10 space-y-2'>
         <h5>Company </h5>
         <div className='text-muted'>About Us Careers</div>
         <h5>View Website in</h5> 
