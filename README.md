@@ -90,4 +90,12 @@ Deploy via platforms like Netlify, Vercel, or GitHub Pages and embed a live link
 ## Credits
 
 Built by Mohd Kamran Khan, MERN Full Stack Developer.
+
 Inspired by the Disney+ Hotstar interface and design patterns.
+
+## Connect with me
+https://mohdkamran-khan.github.io/KAMRAN-portfolio/
+
+---
+
+💡 If you like my work, please ⭐ this repo. Your support inspires me to build more projects! 🚀
